@@ -1,0 +1,28 @@
+{
+  "name": "gcp-helpers",
+  "version": "1.0.0",
+  "description": "Simplify some common patterns in using google cloud platform libraries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnathanjames/gcp-helpers.git"
+  },
+  "keywords": [
+    "google",
+    "cloud",
+    "platform",
+    "node"
+  ],
+  "author": "Nathan James",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tnathanjames/gcp-helpers/issues"
+  },
+  "homepage": "https://github.com/tnathanjames/gcp-helpers#readme",
+  "dependencies": {
+    "@google-cloud/secret-manager": "^2.1.0"
+  }
+}
