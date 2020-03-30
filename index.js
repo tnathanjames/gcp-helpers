@@ -17,6 +17,10 @@ exports.getSecret = (name) => {
  * Check for a valid service account.
  */
 const getServiceAccount = () => {
+  if (!process.env.KEY_FILE_NAME_PATH) {
+    return {};
+  }
+
   const path = process.env.KEY_FILE_NAME_PATH || './';
 
   try {
