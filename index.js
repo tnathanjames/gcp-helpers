@@ -31,9 +31,9 @@ const getServiceAccount = () => {
       };
     }
   } catch (err) {
-    return {};
+    return null;
   }
-  return {};
+  return null;
 };
 
 exports.getServiceAccount = getServiceAccount;
